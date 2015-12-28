@@ -1,0 +1,68 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="@drawable/cor_background"
+    tools:context=".MainActivity">
+
+    <ImageButton
+        android:id="@+id/bt_liga_desliga"
+        android:layout_marginTop="102dp"
+        android:layout_width="200dip"
+        android:layout_height="200dip"
+        android:src="@mipmap/btn_switch_on"
+        android:background="@null"
+        android:clickable="true"
+        android:layout_weight="1"
+        android:scaleType="fitXY"
+        android:contentDescription="@null"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ON"
+        android:textColor="#000000"
+        android:id="@+id/textView"
+        android:layout_alignTop="@+id/bt_liga_desliga"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_alignStart="@+id/textView2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OFF"
+        android:textColor="#000000"
+        android:id="@+id/textView2"
+        android:layout_alignBottom="@+id/bt_liga_desliga"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Developed by DaWg Soft Enterprise"
+        android:textColor="#A9A9A9"
+        android:textStyle="italic"
+        android:layout_margin="30sp"
+        android:id="@+id/textView3"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="For more information dawgsoft@gmail.com"
+        android:textColor="#A9A9A9"
+        android:id="@+id/textView4"
+        android:textStyle="italic"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>
